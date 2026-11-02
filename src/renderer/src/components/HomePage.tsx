@@ -153,15 +153,6 @@ export function HomePage({ onNavigate }: HomePageProps): ReactElement {
           <Icon name="shield" size={14} />
           <span>No uploads, no accounts, no telemetry. Your data stays in this window.</span>
         </div>
-        <div className="home-signature" title="Designed and built by AnonymousVillain35">
-          <span className="signature-rule" aria-hidden="true" />
-          <Icon name="sparkles" size={12} />
-          <span>
-            Designed &amp; built by{' '}
-            <span className="signature-name">AnonymousVillain35</span>
-          </span>
-          <span className="signature-rule is-right" aria-hidden="true" />
-        </div>
       </footer>
     </div>
   )

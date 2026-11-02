@@ -145,18 +145,6 @@ export function Sidebar({
 
       <div className="sidebar-footer">
         <ThemePicker theme={theme} onSelect={onSelectTheme} />
-        <div className="sidebar-credit" title="Crafted by AnonymousVillain35">
-          <span className="credit-mark" aria-hidden="true">
-            AV
-          </span>
-          <span className="credit-copy">
-            <span className="credit-label">A toolkit by</span>
-            <span className="signature-name">AnonymousVillain35</span>
-          </span>
-          <span className="credit-flourish" aria-hidden="true">
-            &#10022;
-          </span>
-        </div>
         <div className="app-meta">
           <span>v{version}</span>
           <span className="meta-dot" />

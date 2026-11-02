@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A fast, offline desktop toolbox for everyday developer utilities.",
   "main": "./out/main/index.js",
-  "author": "AnonymousVillain35",
+  "author": "Dev Toolkit",
   "license": "MIT",
   "private": true,
   "repository": {

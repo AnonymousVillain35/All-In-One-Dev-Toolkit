@@ -4,7 +4,6 @@
   --font-ui: 'Segoe UI Variable Text', 'Segoe UI', system-ui, -apple-system, sans-serif;
   --font-mono: 'Cascadia Code', 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono',
     monospace;
-  --font-signature: Georgia, 'Times New Roman', serif;
 
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 16px 40px rgba(0, 0, 0, 0.32);
@@ -63,8 +62,6 @@
   --glow-2: rgba(34, 211, 238, 0.055);
   --hero-glow: rgba(79, 140, 255, 0.22);
   --selection: rgba(110, 168, 254, 0.32);
-  --signature-from: #9cc5ff;
-  --signature-to: #67e8f9;
 }
 
 :root[data-theme='toxic-green'] {
@@ -104,8 +101,6 @@
   --glow-2: rgba(163, 230, 53, 0.05);
   --hero-glow: rgba(74, 222, 128, 0.2);
   --selection: rgba(125, 251, 161, 0.28);
-  --signature-from: #8fffb3;
-  --signature-to: #e2ff9e;
 }
 
 :root[data-theme='crimson-reactor'] {
@@ -145,8 +140,6 @@
   --glow-2: rgba(251, 146, 60, 0.05);
   --hero-glow: rgba(225, 29, 72, 0.22);
   --selection: rgba(255, 143, 163, 0.3);
-  --signature-from: #ff9aac;
-  --signature-to: #ffc38a;
 }
 
 :root[data-theme='purple-haze'] {
@@ -186,8 +179,6 @@
   --glow-2: rgba(240, 171, 252, 0.05);
   --hero-glow: rgba(167, 139, 250, 0.22);
   --selection: rgba(196, 167, 255, 0.28);
-  --signature-from: #d8c6ff;
-  --signature-to: #f5b8ff;
 }
 
 :root[data-theme='solar-flare'] {
@@ -227,8 +218,6 @@
   --glow-2: rgba(244, 63, 94, 0.05);
   --hero-glow: rgba(251, 146, 60, 0.2);
   --selection: rgba(251, 191, 36, 0.26);
-  --signature-from: #ffd28a;
-  --signature-to: #ff9e80;
 }
 
 :root[data-theme='arctic-frost'] {
@@ -268,8 +257,6 @@
   --glow-2: rgba(148, 163, 184, 0.06);
   --hero-glow: rgba(14, 165, 233, 0.16);
   --selection: rgba(14, 116, 144, 0.22);
-  --signature-from: #0e7490;
-  --signature-to: #0284c7;
 }
 
 *,
@@ -864,79 +851,6 @@ samp {
   color: var(--accent);
 }
 
-.theme-menu-foot {
-  margin-top: 5px;
-  padding: 8px 6px 2px;
-  border-top: 1px solid var(--border);
-  color: var(--text-faint);
-  font-size: 9px;
-  letter-spacing: 0.01em;
-  text-align: center;
-}
-
-.signature-name {
-  color: transparent;
-  background: linear-gradient(100deg, var(--signature-from), var(--signature-to));
-  background-clip: text;
-  -webkit-background-clip: text;
-  font-family: var(--font-signature);
-  font-style: italic;
-  letter-spacing: 0.005em;
-}
-
-.sidebar-credit {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 6px 9px 2px;
-}
-
-.credit-mark {
-  display: grid;
-  width: 23px;
-  height: 23px;
-  flex-shrink: 0;
-  place-items: center;
-  border: 1px solid var(--accent-border);
-  border-radius: 7px;
-  background: linear-gradient(135deg, var(--accent-soft), transparent 70%);
-  color: var(--accent);
-  font-family: var(--font-signature);
-  font-size: 9px;
-  font-style: italic;
-  letter-spacing: -0.04em;
-}
-
-.credit-copy {
-  display: flex;
-  flex: 1;
-  min-width: 0;
-  flex-direction: column;
-}
-
-.credit-label {
-  color: var(--text-faint);
-  font-size: 8px;
-  font-weight: 600;
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
-}
-
-.credit-copy .signature-name {
-  overflow: hidden;
-  font-size: 11.5px;
-  line-height: 1.35;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.credit-flourish {
-  flex-shrink: 0;
-  color: var(--text-faint);
-  font-size: 9px;
-  opacity: 0.65;
-}
-
 .app-meta {
   display: flex;
   align-items: center;
@@ -1453,29 +1367,6 @@ samp {
   display: flex;
   align-items: center;
   gap: 7px;
-}
-
-.home-signature {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--text-faint);
-  font-size: 9.5px;
-  letter-spacing: 0.02em;
-}
-
-.home-signature .signature-name {
-  font-size: 12.5px;
-}
-
-.signature-rule {
-  width: 26px;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, var(--accent-border));
-}
-
-.signature-rule.is-right {
-  background: linear-gradient(90deg, var(--accent-border), transparent);
 }
 
 /* ---------- Tool page ---------- */

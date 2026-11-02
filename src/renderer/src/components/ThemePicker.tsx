@@ -84,10 +84,6 @@ export function ThemePicker({ theme, onSelect }: ThemePickerProps): ReactElement
               </button>
             )
           })}
-
-          <div className="theme-menu-foot">
-            Palette signatures by <span className="signature-name">AnonymousVillain35</span>
-          </div>
         </div>
       )}
     </div>

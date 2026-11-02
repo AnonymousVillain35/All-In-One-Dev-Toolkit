@@ -115,13 +115,6 @@ const icons = {
       <path d="M4 11.5v6c0 1.66 3.58 3 8 3s8-1.34 8-3v-6" />
     </Svg>
   ),
-  text: (props: IconProps) => (
-    <Svg {...props}>
-      <path d="M4 6h16" />
-      <path d="M4 12h10" />
-      <path d="M4 18h14" />
-    </Svg>
-  ),
   qr: (props: IconProps) => (
     <Svg {...props}>
       <rect x="3" y="3" width="7" height="7" rx="1" />

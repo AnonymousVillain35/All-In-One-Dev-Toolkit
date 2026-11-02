@@ -116,15 +116,6 @@ const TOOL_LIST: ToolDef[] = [
     status: 'ready'
   },
   {
-    id: 'lorem-ipsum',
-    name: 'Lorem Ipsum',
-    description: 'Generate placeholder paragraphs, words, or sentences.',
-    category: 'Generators',
-    icon: 'text',
-    keywords: ['lorem', 'ipsum', 'placeholder', 'text', 'dummy'],
-    status: 'planned'
-  },
-  {
     id: 'qr-generator',
     name: 'QR Code Generator',
     description: 'Turn text or links into downloadable QR codes.',

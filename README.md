@@ -20,7 +20,6 @@ Built with Electron, React, TypeScript, and Vite.
 | Diff Checker | Planned |
 | HTML Entities | Planned |
 | Regex Tester | Planned |
-| Lorem Ipsum | Planned |
 | QR Code Generator | Planned |
 | Cron Parser | Planned |
 | Color Converter | Planned |
@@ -36,7 +35,7 @@ Six hand-tuned palettes with a premium, theme-aware interface:
 - Solar Flare
 - Arctic Frost (light)
 
-The palette choice persists across launches. Appearance signatures by AnonymousVillain35.
+The palette choice persists across launches.
 
 ## Getting started
 
@@ -63,10 +62,6 @@ The NSIS installer is written to `release/`.
 ## Privacy
 
 All transformations run in the renderer with no network calls. Pasted content never leaves the machine.
-
-## Credits
-
-Designed and built by **AnonymousVillain35**.
 
 ## License
 

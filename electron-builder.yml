@@ -1,0 +1,24 @@
+appId: com.devtoolkit.allinone
+productName: All-in-One Dev Toolkit
+copyright: Copyright © 2026 Dev Toolkit
+directories:
+  output: release
+  buildResources: build
+files:
+  - out/**/*
+asar: true
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  artifactName: DevToolkit-${version}-setup.${ext}
+nsis:
+  oneClick: false
+  perMachine: false
+  allowElevation: true
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Dev Toolkit
+  uninstallDisplayName: All-in-One Dev Toolkit

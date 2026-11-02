@@ -6,6 +6,10 @@
   "author": "AnonymousVillain35",
   "license": "MIT",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnonymousVillain35/All-In-One-Dev-Toolkit.git"
+  },
   "scripts": {
     "dev": "electron-vite dev",
     "start": "electron-vite preview",
